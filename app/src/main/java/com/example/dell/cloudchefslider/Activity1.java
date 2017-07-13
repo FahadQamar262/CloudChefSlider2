@@ -15,7 +15,13 @@ public class Activity1 extends AppCompatActivity {
     }
     void SignUpOnClick(View v)
     {
+<<<<<<< HEAD
         startActivity(new Intent(Activity1.this, Activity2.class));
+=======
+        Intent myIntent = new Intent(this,Activity2.class);
+        startActivity(myIntent);
+        finish();
+>>>>>>> origin/master
 
 
     }
