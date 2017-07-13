@@ -119,7 +119,7 @@ public class MainActivity extends Activity {
         return viewPager.getCurrentItem() + i;
     }
     private void launchHomeScreen() {
-        startActivity(new Intent(this, Main2Activity.class));
+        startActivity(new Intent(this, Activity1.class));
         finish();
     }
 
