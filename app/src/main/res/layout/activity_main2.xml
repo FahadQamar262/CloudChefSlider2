@@ -1,12 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dell.cloudchefslider.Main2Activity">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.dell.cloudchefslider.Main2Activity"
+    android:background="@drawable/sharplogin"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:paddingTop="50dp"
 
-</RelativeLayout>
+        >
+
+    <EditText
+        android:id="@+id/editText"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/address"
+        android:inputType="textPersonName"
+
+        android:paddingBottom="10dp"
+        android:textCursorDrawable="@android:color/black" />
+
+    <Spinner
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@android:color/black"
+        android:paddingBottom="10dp"
+        android:contentDescription="@string/city"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:visibility="visible"
+        android:spinnerMode="dropdown"/>
+
+    <Spinner
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@android:color/black"
+        android:paddingBottom="10dp"
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="visible"
+        android:spinnerMode="dropdown"
+        />
+
+
+    <EditText
+        android:id="@+id/textView2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Experience"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:textColorLink="@color/white"
+        android:textCursorDrawable="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="How do you hear about us?"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColorLink="@color/white"
+        android:textCursorDrawable="@android:color/black"/>
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/yellow"
+        android:text="Register"
+        android:textColorLink="@android:color/background_light" />
+
+    </LinearLayout>
+

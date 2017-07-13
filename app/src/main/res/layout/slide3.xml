@@ -8,30 +8,50 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:gravity="center_horizontal"
+
         android:orientation="vertical"
         android:background="@drawable/spls3"
         android:weightSum="1">
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="365dp"
+            android:text="@string/RATINGS_slide1"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+
+            />
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
+
             android:text="@string/title_slide3"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/slide_title"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+
             android:text="@string/desc_slide3"
             android:textColor="@android:color/white"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="15sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Display3"
+            />
+
 
     </LinearLayout>
 

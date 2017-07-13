@@ -12,7 +12,8 @@
     <!-- dots active colors -->
     <color name="dot_active">#000000</color>
 
-
+    <color name="yellow">#FDB700</color>
     <!-- dots inactive colors -->
     <color name="dot_inactive">#cccccc</color>
+    <color name="white">#ffffff</color>
 </resources>
