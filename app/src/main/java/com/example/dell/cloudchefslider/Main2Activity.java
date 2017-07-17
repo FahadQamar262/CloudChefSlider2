@@ -30,7 +30,7 @@ public class Main2Activity extends AppCompatActivity {
 
     void ROnClick(View v)
     {
-        Intent myIntent = new Intent(this,HomeScreen.class);
+        Intent myIntent = new Intent(Main2Activity.this,HomeScreen.class);
         startActivity(myIntent);
 
 
