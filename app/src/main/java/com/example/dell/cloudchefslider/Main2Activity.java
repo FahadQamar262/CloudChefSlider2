@@ -1,7 +1,9 @@
 package com.example.dell.cloudchefslider;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -24,5 +26,13 @@ public class Main2Activity extends AppCompatActivity {
                 android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.town));
         myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner1.setAdapter(myAdapter1);
+    }
+
+    void ROnClick(View v)
+    {
+        Intent myIntent = new Intent(this,HomeScreen.class);
+        startActivity(myIntent);
+
+
     }
 }

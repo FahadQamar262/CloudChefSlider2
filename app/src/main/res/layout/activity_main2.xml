@@ -94,6 +94,7 @@
         android:textColor="@color/white"
         android:background="@color/yellow"
         android:text="Register"
+        android:onClick="ROnClick"
         android:textColorLink="@android:color/background_light" />
 
     </LinearLayout>
