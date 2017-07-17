@@ -31,7 +31,7 @@ public class HomeScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home_screen);
         mtoolbar=(Toolbar) findViewById(R.id.toolbar2);
         mtoolbar.setTitle(getResources().getString(R.string.app_name));
 

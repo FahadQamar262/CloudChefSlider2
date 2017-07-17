@@ -19,4 +19,12 @@ public class Activity1 extends AppCompatActivity {
         startActivity(myIntent);
 
     }
+    void SignUpOnClick1(View v)
+    {
+        Intent myIntent = new Intent(this,HomeScreen.class);
+        startActivity(myIntent);
+
+    }
+
+
 }

@@ -30,6 +30,7 @@
         android:background="@color/yellow"
         android:text="LOGIN"
         android:textSize="18sp"
+        android:onClick="SignUpOnClick1"
         android:textStyle="bold"
         android:textColor="@color/white"
         app:layout_constraintRight_toRightOf="parent"
