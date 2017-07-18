@@ -13,21 +13,21 @@ public class HomeScreen extends AppCompatActivity {
     Toolbar mtoolbar;
     ListView mlistView;
 
-    String[] names={"Australia", "Brazil", "China", "France", "Germany", "India", "Ireland", "ItalY","Mexico", "Poland", "Russia", "Spain", "US"};
-    String[] des={"Country","Country","Country","Country","Country","Country","Country","Country","Country","Country","Country","Country","Country"};
-    int[]  picID={R.drawable.flag_australia,
-            R.drawable.flag_brazil,
-            R.drawable.flag_china,
-            R.drawable.flag_france,
-            R.drawable.flag_germany,
-            R.drawable.flag_india,
-            R.drawable.flag_ireland,
-            R.drawable.flag_italy,
-            R.drawable.flag_maxico,
-            R.drawable.flag_poland,
-            R.drawable.flag_russia,
-            R.drawable.flag_spain,
-            R.drawable.flag_us};
+    String[] names={"Biryani", "Aloo Bhaji", "Pizza", "Karahi", "Chowmein", "Cake", "Burger", "Bread","Grilled Chicken", "Koftay", "Mix Sabzi", "Sajji", "Shami Kabab"};
+    String[] des={"By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc"};
+    int[]  picID={R.drawable.food_biryani1,
+            R.drawable.food_aloobhaji,
+            R.drawable.food_pizza1,
+            R.drawable.food_karahi1,
+            R.drawable.food_chowmein1,
+            R.drawable.food_cake1,
+            R.drawable.food_burger,
+            R.drawable.food_bread1,
+            R.drawable.food_griledchik,
+            R.drawable.food_koftay,
+            R.drawable.food_mixsabzi,
+            R.drawable.food_sajji1,
+            R.drawable.food_shami};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
