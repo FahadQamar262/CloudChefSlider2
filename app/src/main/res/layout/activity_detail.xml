@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/sharplogin"
     tools:context="com.example.dell.cloudchefslider.DetailActivity">
 
 
@@ -20,10 +21,19 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
         android:layout_below="@+id/toolbar3"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCD"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp" />
 
 </RelativeLayout>

@@ -14,8 +14,8 @@ public class HomeScreen extends AppCompatActivity {
     ListView mlistView;
 
     String[] names={"Biryani", "Aloo Bhaji", "Pizza", "Karahi", "Chowmein", "Cake", "Burger", "Bread","Grilled Chicken", "Koftay", "Mix Sabzi", "Sajji", "Shami Kabab"};
-    String[] des={"By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc","By Chef Abc"};
-    int[]  picID={R.drawable.food_biryani1,
+    String[] des={"By Chef Abc","By Chef Def","By Chef Ghi","By Chef Jkl","By Chef Mno","By Chef Pqr","By Chef Stu","By Chef Vwx","By Chef Yza","By Chef Bcd","By Chef Efg","By Chef Hij","By Chef Klm"};
+    int[] picID={R.drawable.food_biryani1,
             R.drawable.food_aloobhaji,
             R.drawable.food_pizza1,
             R.drawable.food_karahi1,
