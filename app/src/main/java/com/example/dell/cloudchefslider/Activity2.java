@@ -31,8 +31,8 @@ public class Activity2 extends AppCompatActivity {
     }
     void UserOnClick(View v)
     {
-        Intent myIntent = new Intent(this,HomeScreen.class);
-        startActivity(myIntent);
+        Intent mIntent = new Intent(Activity2.this,HomeScreen.class);
+        startActivity(mIntent);
 
 
     }
