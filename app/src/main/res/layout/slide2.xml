@@ -10,7 +10,7 @@
         android:layout_centerInParent="true"
 
         android:orientation="vertical"
-        android:background="@drawable/gfj"
+        android:background="@drawable/slider4"
         android:weightSum="1">
 
 
