@@ -9,38 +9,51 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-       <ImageView
-           android:id="@+id/imageView2"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:padding="5dp"
-           app:srcCompat="@mipmap/ic_launcher">
+        <ImageView
+            android:id="@+id/menu_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:srcCompat="@mipmap/ic_launcher">
 
-       </ImageView>
+        </ImageView>
+
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/menu_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/menu_image"
+            android:layout_toRightOf="@+id/menu_image"
             android:text="TextView"
             android:textColor="@color/black"
             android:textSize="20dp"
-            android:textStyle="bold"
 
-            android:layout_toRightOf="@+id/imageView2" />
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/menu_ch_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/menu_price"
+            android:layout_alignBottom="@+id/menu_price"
+            android:layout_toEndOf="@+id/menu_image"
             android:text="TextView"
             android:textColor="@color/black"
-            android:layout_below="@+id/textView8"
-            android:layout_toEndOf="@+id/imageView2"
-            android:padding="5dp"
             android:textSize="13dp"
-            android:layout_toRightOf="@+id/imageView2" />
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/menu_name"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
     </RelativeLayout>
 
 

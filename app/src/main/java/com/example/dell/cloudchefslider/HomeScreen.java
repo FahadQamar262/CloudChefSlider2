@@ -15,6 +15,7 @@ public class HomeScreen extends AppCompatActivity {
 
     String[] names={"Biryani", "Aloo Bhaji", "Pizza", "Karahi", "Chowmein", "Cake", "Burger", "Bread","Grilled Chicken", "Koftay", "Mix Sabzi", "Sajji", "Shami Kabab"};
     String[] des={"By Chef Abc","By Chef Def","By Chef Ghi","By Chef Jkl","By Chef Mno","By Chef Pqr","By Chef Stu","By Chef Vwx","By Chef Yza","By Chef Bcd","By Chef Efg","By Chef Hij","By Chef Klm"};
+    String[] price={"500","400","300","600","200","250","350","450","550","275","375","225","325"};
     int[] picID={R.drawable.food_biryani1,
             R.drawable.food_aloobhaji,
             R.drawable.food_pizza1,
@@ -36,7 +37,7 @@ public class HomeScreen extends AppCompatActivity {
         mtoolbar.setTitle(getResources().getString(R.string.app_name));
 
         mlistView=(ListView) findViewById(R.id.listview);
-        Adapter myadapter = new Adapter(HomeScreen.this,names,des,picID);
+        Adapter myadapter = new Adapter(HomeScreen.this,names,des,picID,price);
         mlistView.setAdapter(myadapter);
         mlistView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -45,6 +46,7 @@ public class HomeScreen extends AppCompatActivity {
                 mintent.putExtra("names",names[i]);
                 mintent.putExtra("des",des[i]);
                 mintent.putExtra("id",picID[i]);
+                mintent.putExtra("price",price[i]);
                 startActivity(mintent);
             }
         });

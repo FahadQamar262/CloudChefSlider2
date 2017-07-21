@@ -19,12 +19,14 @@ public class Adapter extends ArrayAdapter<String> {
     String[] des;
     int[] picID;
     Context mcontext;
-    public Adapter(@NonNull Context context, String[] Names, String[] Des, int[] PicID) {
+    String[] price;
+    public Adapter(@NonNull Context context, String[] Names, String[] Des, int[] PicID,String[] Price) {
         super(context, R.layout.listview_item);
         this.names=Names;
         this.des=Des;
         this.picID=PicID;
         this.mcontext=context;
+        this.price=Price;
     }
 
     @Override
@@ -40,9 +42,10 @@ public class Adapter extends ArrayAdapter<String> {
         if(convertView==null) {
             LayoutInflater mInflatr = (LayoutInflater) mcontext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = mInflatr.inflate(R.layout.listview_item, parent, false);
-            mviewholder.mpicID = (ImageView) convertView.findViewById(R.id.imageView2);
-            mviewholder.mnames = (TextView) convertView.findViewById(R.id.textView8);
-            mviewholder.mdes = (TextView) convertView.findViewById(R.id.textView9);
+            mviewholder.mpicID = (ImageView) convertView.findViewById(R.id.menu_image);
+            mviewholder.mnames = (TextView) convertView.findViewById(R.id.menu_name);
+            mviewholder.mdes = (TextView) convertView.findViewById(R.id.menu_ch_name);
+            mviewholder.mprice=(TextView)convertView.findViewById(R.id.menu_price);
             convertView.setTag(mviewholder);
         }else {
             mviewholder=(viewholder)convertView.getTag();
@@ -50,6 +53,7 @@ public class Adapter extends ArrayAdapter<String> {
         mviewholder.mpicID.setImageResource(picID[position]);
         mviewholder.mnames.setText(names[position]);
         mviewholder.mdes.setText(des[position]);
+        mviewholder.mprice.setText(price[position]);
 
         return convertView;
     }
@@ -58,7 +62,7 @@ public class Adapter extends ArrayAdapter<String> {
         ImageView mpicID;
         TextView mnames;
         TextView mdes;
-
+        TextView mprice;
     }
 }
 

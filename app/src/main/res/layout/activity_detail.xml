@@ -10,7 +10,7 @@
 
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar3"
+        android:id="@+id/toolbar_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -24,16 +24,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
-        android:layout_below="@+id/toolbar3"
+        android:layout_below="@+id/toolbar_detail"
         android:layout_alignParentStart="true" />
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/ch_name_detail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ABCD"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="18dp"
         android:textColor="@color/black"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/name_detail"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="58dp"
+        android:text="TextView"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="203dp" />
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/price_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/name_detail"
+        android:layout_alignBottom="@+id/name_detail"
+        android:layout_alignParentEnd="true" />
+
 
 </RelativeLayout>
