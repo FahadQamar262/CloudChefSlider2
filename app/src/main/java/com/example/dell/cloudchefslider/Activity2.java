@@ -14,12 +14,9 @@ public class Activity2 extends AppCompatActivity {
         setContentView(R.layout.activity_2);
 
 
-        Toolbar myToolbar = (Toolbar)findViewById(R.id.mCustomToolbar);
-
-        setSupportActionBar(myToolbar);
-
-        getSupportActionBar().setTitle("Sign Up");
-        getSupportActionBar().setIcon(getDrawable(R.drawable.ic_back));
+//        getSupportActionBar().setTitle("Sign Up");
+//        getSupportActionBar().setIcon(getDrawable(R.drawable.ic_back));
+//
     }
 
     void RegisterOnClick(View v)

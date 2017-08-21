@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dishes"
+        android:icon="@drawable/ic_dish"
+        android:title="All Dishes" />
+
+    <item
+        android:id="@+id/navigation_popular_dishes"
+        android:icon="@drawable/ic_special"
+        android:title="Popular" />
+
+    <item
+        android:id="@+id/navigation_call"
+        android:icon="@drawable/ic_call"
+        android:title="Call" />
+    <item
+        android:id="@+id/navigation_featured"
+        android:icon="@drawable/ic_featured"
+        android:title="Featured" />
+    <item
+        android:id="@+id/navigation_favourites"
+        android:icon="@drawable/ic_favourite"
+        android:title="Favourites" />
+
+
+
+</menu>

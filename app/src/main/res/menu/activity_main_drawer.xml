@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shop"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/ic_review"
+            android:title="Review Orders" />
+        <item
+            android:id="@+id/nav_view"
+            android:icon="@drawable/ic_list"
+            android:title="Your Orders" />
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_chef"
+            android:icon="@drawable/ic_chef"
+            android:title="Become a Chef" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_support"
+                android:title="Support" />
+        </menu>
+    </item>
+
+</menu>
